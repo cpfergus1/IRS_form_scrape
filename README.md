@@ -6,7 +6,7 @@
 - [Overview](#overview)
 - [Techstack](#techstack)
 - [Local Setup](#setup)
-- [Running Locally](#Running Locally)
+- [Running Locally](#running)
 
 ## Overview of Application
 This is my first python web scraping application designed to pull information on your desired IRS forms or download available form based on year it was updated!
