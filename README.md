@@ -26,8 +26,8 @@ Future functionality will include:
 
 
 ## Setup
-- clone this repo locally
-- install python 3.9.2
+- clone this repo locally.
+- install python 3.9.2 if your version of python is not already compatible.
 - install the latest libraries:
 ```
 pip3 install requests
