@@ -1,13 +1,10 @@
-# IRS_form_scrape
 # README
 
-## Table of Contents:
+# IRS_form_scrape
 
-- [Overview](#overview)
-- [Techstack](#techstack)
-- [Local Setup](#setup)
-- [Running Locally](#running)
-- [Notes](#notes)
+
+
+{:toc}
 
 ## Overview of Application
 This is a python web scraping application designed to pull information on your desired IRS forms or download available form based on year it was updated! The application is CLI promted and will take your inputs and return either the form information with earliest and latest years the form has been updated or it will download a form for a range, or specific years. User inputs are stored temporarily in the runner file as arrays and sent to the irs_scrape.py for processing. 
