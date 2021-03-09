@@ -11,13 +11,28 @@
 ## Overview of Application
 This is a python web scraping application designed to pull information on your desired IRS forms or download available form based on year it was updated! The application is CLI promted and will take your inputs and return either the form information with earliest and latest years the form has been updated or it will download a form for a range, or specific years. User inputs are stored temporarily in the runner file as arrays and sent to the irs_scrape.py for processing. 
 
-Output from the program will come in two different ways:
+Output from the program will come in three different ways:
 
 - JSON Text display in CLI
 ```
-
+Results written to results.json
+[{'form_number': 'Form W-2',
+  'form_title': 'Wage and Tax Statement (Info Copy Only)',
+  'max_year': 2021,
+  'min_year': 1954},
+ {'form_number': 'Form W-2 P',
+  'form_title': 'Statement For Recipients of Annuities, Pensions, Retired Pay, '
+                'or IRA Payments',
+  'max_year': 1990,
+  'min_year': 1971},
+ {'form_number': 'Form 1099-A',
+  'form_title': 'Acquisition or Abandonment of Secured Property (Info Copy '
+                'Only)',
+  'max_year': 2021,
+  'min_year': 1977}]
 ```
-- Results.json file in application root directory will be create 
+- Results.json file in application root directory will be created
+- Tax form downloads will be saved to the `application root dir/forms/{form-name - form-year}.pdf` e.x. `IRS_form_scrape/forms/Form W-2 - 2001.pdf`
 
 Potential future functionality will include:
  - Proccessing a base file instead of CLI inputs if desired.
