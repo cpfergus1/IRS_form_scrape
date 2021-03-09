@@ -1,3 +1,18 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [README](#readme)
+  - [IRS_form_scrape](#irs_form_scrape)
+  - [Table of Contents:](#table-of-contents)
+  - [Overview of Application](#overview-of-application)
+  - [Techstack/Libraries](#techstacklibraries)
+  - [Setup](#setup)
+  - [Running Locally](#running-locally)
+  - [Notes to potential future employer](#notes-to-potential-future-employer)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # README
 ## IRS_form_scrape
 
