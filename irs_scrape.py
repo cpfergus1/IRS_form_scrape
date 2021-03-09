@@ -13,7 +13,7 @@ class IrsScrape:
     for form_number in form_numbers:
       form = Form(form_number)
       self.scrape_form_info(form, form_information)
-      self.write_print_json(form_information)
+    self.write_print_json(form_information)
 
   def scrape_form_info(self, form, form_information):
     page = 0
@@ -53,6 +53,7 @@ class IrsScrape:
       data.append(json_form)
     with open("results.json", "w") as outfile:
       json.dump(data, outfile)
+    print('Results written to results.json')
 
   def build_form_data(self, form, rows):
     rows.pop(0)
