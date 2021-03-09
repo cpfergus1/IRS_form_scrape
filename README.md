@@ -58,7 +58,6 @@ Potential future functionality will include:
 - BeautifulSoup
 - lxml
 - requests
-- pprint
 
 
 ## Setup
@@ -68,7 +67,6 @@ Potential future functionality will include:
 ```
 pip3 install requests
 pip3 install beautifulsoup4
-pip3 install pprint
 pip3 install lxml
 ```
 ## Running Locally
