@@ -10,7 +10,11 @@
 
 ## Overview of Application
 This is my first python web scraping application designed to pull information on your desired IRS forms or download available form based on year it was updated!
-Future functionality will include to processing a base file instead of CLI inputs if desired.
+
+Future functionality will include:
+ - Proccessing a base file instead of CLI inputs if desired.
+ - Updating runner file logic for error handling
+ - Potential GUI
 
 ## Techstack/Libraries
 
