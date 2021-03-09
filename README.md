@@ -69,5 +69,5 @@ navigate to your cloned repo folder location in CLI
 
 ## Notes to potential future employer
 
-This was my very first full python application that I am excited to share with you! I beleive the most difficult part of this challenge was navigating my way through BeautifulSoup and getting 
+This was my very first full python application that I am excited to share with you! I beleive the most difficult part of this challenge was navigating my way through BeautifulSoup and getting to the elements I needed. Additionally, because this was my first python app, there was a little bit of a learning curve with the language. I felt the similarities to Ruby helped me develop this app in a decent amount of time. Thanks for letting me participate!
 
