@@ -11,6 +11,14 @@
 ## Overview of Application
 This is a python web scraping application designed to pull information on your desired IRS forms or download available form based on year it was updated! The application is CLI promted and will take your inputs and return either the form information with earliest and latest years the form has been updated or it will download a form for a range, or specific years. User inputs are stored temporarily in the runner file as arrays and sent to the irs_scrape.py for processing. 
 
+Output from the program will come in two different ways:
+
+- JSON Text display in CLI
+```
+
+```
+- Results.json file in application root directory will be create 
+
 Potential future functionality will include:
  - Proccessing a base file instead of CLI inputs if desired.
  - Updating runner file logic for error handling
@@ -46,5 +54,5 @@ navigate to your cloned repo folder location in CLI
 
 ## Notes to potential future employer
 
-This was my very first full python application that I am excited to share with you! 
+This was my very first full python application that I am excited to share with you! I beleive the most difficult part of this challenge was navigating my way through BeautifulSoup and getting 
 
